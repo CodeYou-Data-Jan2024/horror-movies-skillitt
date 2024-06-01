@@ -6,8 +6,8 @@ SELECT
 FROM 
     movies
 WHERE 
-    genre = 'Horror'
-    AND release_year <= 1985
+    genre = 'horror'
+    AND year <= 1985
 ORDER BY 
     imdb_rating DESC
 LIMIT 3;
